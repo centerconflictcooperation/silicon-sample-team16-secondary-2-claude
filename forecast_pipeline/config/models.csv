@@ -1,0 +1,2 @@
+model_id,model,integration,family,temperature,output_mode,seed,n_completions,roster_status,active,notes
+claude-opus-4-6,anthropic.claude-opus-4-6,vertexai,Anthropic,0,structured,42,1,submitted,TRUE,Single-model secondary entry; two fixed prompts and one completion per intervention-prompt

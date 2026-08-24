@@ -1,0 +1,142 @@
+---
+title: "Team 16 Tier-3 single-model forecast"
+subtitle: "Silicon Sample Benchmark"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                     fig.width = 10, fig.height = 6, dpi = 140)
+library(dplyr)
+library(readr)
+library(tidyr)
+library(ggplot2)
+library(jsonlite)
+metadata <- read_json("../../metadata.json", simplifyVector = TRUE)
+models <- read_csv("../config/models.csv", show_col_types = FALSE)
+forecasts <- read_csv("../outputs/derived/forecast_aggregation_long.csv", show_col_types = FALSE)
+spread <- read_csv("../outputs/diagnostics/prompt_disagreement_by_cell.csv", show_col_types = FALSE)
+outcomes <- read_csv("../inputs/tier3_outcomes.csv", show_col_types = FALSE)
+interventions <- read_csv("../inputs/tier3_interventions.csv", show_col_types = FALSE)
+model_label <- if (models$model_id[[1]] == "gemini-3.1-pro-preview") "Gemini 3.1 Pro Preview" else "Claude Opus 4.6"
+model_fc <- filter(forecasts, aggregation_level == "model")
+prompt_fc <- filter(forecasts, aggregation_level == "prompt")
+```
+
+This report documents the locked **`r model_label`** secondary submission from
+team 16. It contains 208 average treatment effect (ATE) forecasts: one for each
+of 16 interventions crossed with 13 outcomes.
+
+> **What is an ATE?** Here, an ATE is the predicted average difference between
+> people assigned to an intervention and people assigned to the neutral control.
+> Positive and negative values indicate the direction of that difference; the
+> units are the original units of each outcome.
+
+# 1. Submitted method
+
+The model received the intervention, control material, outcome definitions, and
+native response scales. Two fixed, substantively equivalent prompts independently
+requested all 13 signed ATEs for every intervention. The submitted value for each
+cell is the median of those two prompt forecasts. There was no calibration,
+shrinkage, clipping, or manual editing.
+
+| Item | Value |
+|:--|:--|
+| Entry | `r metadata$entry` |
+| Model | `r model_label` |
+| Prompt variants | 2 |
+| Completions per intervention-prompt | `r models$n_completions[[1]]` |
+| Forecast cells | `r nrow(model_fc)` |
+| Aggregation | Median across prompts |
+
+# 2. Submitted forecast map
+
+The heatmap is the complete submitted forecast. Because outcomes use different
+native scales, color intensity should be compared primarily within an outcome
+column rather than across columns.
+
+```{r forecast-map}
+ggplot(model_fc, aes(outcome, condition, fill = estimate)) +
+  geom_tile(color = "white", linewidth = 0.15) +
+  scale_fill_gradient2(low = "#2166AC", mid = "white", high = "#B2182B",
+                       midpoint = 0, name = "ATE") +
+  labs(x = NULL, y = NULL) +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        panel.grid = element_blank())
+```
+
+# 3. Forecast magnitude by outcome
+
+This figure summarizes the distribution of absolute forecast magnitudes for each
+outcome and orders outcomes by their median magnitude. It describes the model's
+scale of predictions; it is not evidence of empirical accuracy.
+
+```{r magnitude}
+mag <- model_fc |>
+  mutate(abs_ate = abs(estimate)) |>
+  group_by(outcome) |>
+  mutate(order_value = median(abs_ate)) |>
+  ungroup() |>
+  mutate(outcome = reorder(outcome, order_value))
+ggplot(mag, aes(outcome, abs_ate)) +
+  geom_boxplot(fill = "#5B8DB8", alpha = .75, outlier.alpha = .6) +
+  coord_flip() +
+  labs(x = NULL, y = "Absolute predicted ATE") +
+  theme_minimal(base_size = 11)
+```
+
+# 4. Prompt robustness
+
+Each point compares the two prompt formulations for one intervention-outcome
+cell. Points close to the diagonal indicate that wording had little influence.
+
+```{r prompt-robustness}
+prompt_wide <- prompt_fc |>
+  select(condition, outcome, prompt_id, estimate) |>
+  pivot_wider(names_from = prompt_id, values_from = estimate)
+prompt_names <- setdiff(names(prompt_wide), c("condition", "outcome"))
+ggplot(prompt_wide, aes(x = .data[[prompt_names[[1]]]], y = .data[[prompt_names[[2]]]])) +
+  geom_abline(slope = 1, intercept = 0, color = "grey60", linetype = 2) +
+  geom_point(color = "#2C7FB8", alpha = .65, size = 2) +
+  coord_equal() +
+  labs(x = "Prompt 1 forecast", y = "Prompt 2 forecast") +
+  theme_minimal(base_size = 11)
+```
+
+Pearson correlation across the 208 cells: **`r sprintf("%.3f", cor(prompt_wide[[prompt_names[[1]]]], prompt_wide[[prompt_names[[2]]]], method = "pearson"))`**.
+
+## Cells most sensitive to prompt wording
+
+The table lists the ten cells with the largest prompt range after dividing by
+the width of that outcome's native scale. This makes sensitivity more comparable
+across outcomes with different units.
+
+```{r sensitive-cells}
+spread |>
+  arrange(desc(prompt_range_fraction)) |>
+  select(condition, outcome, prompt_min, prompt_max, prompt_range_fraction) |>
+  slice_head(n = 10) |>
+  mutate(prompt_range_fraction = round(prompt_range_fraction, 3)) |>
+  knitr::kable(col.names = c("Intervention", "Outcome", "Minimum", "Maximum",
+                            "Range / scale width"))
+```
+
+# 5. Interpretation and reproducibility
+
+This single-model entry is useful as a controlled comparison with the primary
+three-family consensus: prompts and aggregation are held fixed while the model
+contributor changes. Model-agreement statistics are not applicable within this
+repository because it deliberately contains one submitted model.
+
+The exact prompts, extracted benchmark inputs, archived structured responses,
+aggregation code, locked prediction file, and provenance are deposited here.
+Running scripts `03_build_submission.R` and `04_render_report.R` rebuilds the
+derived forecast and this report without making model calls. Script
+`02_run_forecasts.R` is retained for methodological transparency and defaults to
+preview mode with model calls disabled.

@@ -1,0 +1,625 @@
+aggregation_level,condition,prompt_id,model_id,family,n_contributors,outcome,estimate
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,2.5
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,1.5
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.8
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,1.3
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,1.4
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1.5
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,1
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,2
+prompt,Consensus,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,2.2
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,2.5
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.5
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.3
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.5
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.8
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.2
+prompt,Consensus,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.5
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.2
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.9
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.3
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.12
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.7
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.6
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.008
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.8
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.6
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1.5
+prompt,Corporate reliance,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.6
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.8
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2.5
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.1
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.3
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.5
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.9
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.8
+prompt,Corporate reliance,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,3
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.4
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,1.1
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.5
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,1
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1.8
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.8
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,2
+prompt,Extreme weather predictions,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,2.2
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.8
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.8
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.25
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.5
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,2
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.5
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,2.2
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1.3
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.5
+prompt,Extreme weather predictions,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.8
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.8
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,1.5
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.5
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,1.3
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.9
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,1.4
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,1
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1.6
+prompt,Former skeptics,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.7
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,2
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.5
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.3
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.5
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.2
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.2
+prompt,Former skeptics,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.5
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.2
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.9
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-2.1
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,2.5
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.7
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.9
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,0.6
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.7
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1.8
+prompt,Funding,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.5
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2.8
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,3.5
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.2
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.2
+prompt,Funding,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.2
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.9
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.8
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.12
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.7
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.9
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1.1
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.6
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,2
+prompt,High public trust,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,2.3
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2.8
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.5
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.2
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.8
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.9
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,3
+prompt,High public trust,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,3.5
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.4
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,0.5
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.4
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-0.7
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.05
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.3
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.3
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.005
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.3
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,0.5
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.25
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,0.8
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,0.7
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.8
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.8
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.5
+prompt,Interview Prof. Maraun,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.2
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,1.4
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.3
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,1.1
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.8
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.02
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,1.3
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.9
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1.4
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.5
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,2.1
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,2.5
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,2.3
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.5
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.2
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.02
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,2
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,2.5
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1.5
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.8
+prompt,Interview Prof. Sebille,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.5
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.2
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.9
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.3
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.12
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.9
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.7
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.7
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.5
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1.5
+prompt,Measurement & modeling (1),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.4
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.8
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2.5
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.5
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.5
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,2
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.8
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,3
+prompt,Measurement & modeling (1),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,3.2
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.4
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,0.6
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.4
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-0.5
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.05
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.3
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.3
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.003
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.3
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,0.5
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.3
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,0.7
+prompt,Measurement & modeling (2),tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,0.6
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.2
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,0.7
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-1.5
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.1
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,0.9
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.6
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.005
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,0.6
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.5
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2
+prompt,Measurement & modeling (2),tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,1.8
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,1
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.2
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,1
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.9
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,1
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,0.9
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.7
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1.3
+prompt,Model accuracy,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.4
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,2.5
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.5
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-1.8
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.3
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.5
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.2
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2
+prompt,Model accuracy,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.2
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,1.8
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,2.5
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,2.2
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-3
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,2
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.2
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,2
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1.5
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,1.5
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,3.2
+prompt,Oil industry misinformation,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,3.5
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,2.1
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,3.5
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,2.8
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-4.2
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,2.5
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.8
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.02
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,2.5
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,2
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1.8
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,3.8
+prompt,Oil industry misinformation,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,4.5
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.35
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,0.55
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.4
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-0.6
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.05
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.35
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.3
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.005
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.35
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,0.5
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.25
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,0.7
+prompt,Peer-review,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,0.65
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-1.8
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.2
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.5
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.7
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.2
+prompt,Peer-review,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.5
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.35
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,0.45
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.35
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-0.55
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.05
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.3
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.4
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.005
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.3
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,0.5
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.25
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,0.6
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,0.55
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-1.8
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.3
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.2
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.8
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.9
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.2
+prompt,Portrait Prof. Cherry,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,0.8
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.2
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,0.9
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1.3
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,0.7
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.6
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,0.8
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1.1
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,0.6
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1.5
+prompt,Scientist community helpers,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.4
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,1.3
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-2
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,1.2
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,1.3
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,2.5
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,2.8
+prompt,Scientist community helpers,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,2.5
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,behavior_mean,1.2
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,concern_mean,1.8
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,distrust_post,-1
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,funding_perceptions,1.4
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.8
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_general,1.6
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_role_mean,1
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,policy_specific_mean,1.3
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_multidimensional,1
+prompt,Social justice,tier3_direct_forecast_v1,claude-opus-4-6,Anthropic,1,trust_post,1.2
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,behavior_mean,1.8
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,belief_post,1.5
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,concern_mean,2
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,distrust_post,-1.2
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,donation_ams,0.15
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,funding_perceptions,1.5
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,inst_trust_mean,0.8
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,newsletter_signup,0.01
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_general,2
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_role_mean,1.2
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,policy_specific_mean,1.5
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_multidimensional,1
+prompt,Social justice,tier3_direct_forecast_v2,claude-opus-4-6,Anthropic,1,trust_post,1.3
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1.2
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,belief_post,2.5
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.5
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.9
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,1.3
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,1
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,policy_general,1.45
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.65
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,1
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2.1
+model,Consensus,NA,claude-opus-4-6,Anthropic,2,trust_post,2.35
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,belief_post,1.5
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.1
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.9
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.135
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,0.9
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.8
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.009000000000000001
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,policy_general,1.05
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.25
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.75
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2.15
+model,Corporate reliance,NA,claude-opus-4-6,Anthropic,2,trust_post,2.3
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1.5
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,belief_post,1.5
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.55
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.7
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.2
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,1.3
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,1.75
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,policy_general,1.25
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,2
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,1.05
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2.25
+model,Extreme weather predictions,NA,claude-opus-4-6,Anthropic,2,trust_post,2.5
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1.2
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,belief_post,1.9
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.5
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.75
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,1.3
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.95
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,policy_general,1.45
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.1
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,1
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,1.9000000000000001
+model,Former skeptics,NA,claude-opus-4-6,Anthropic,2,trust_post,2.1
+model,Funding,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1
+model,Funding,NA,claude-opus-4-6,Anthropic,2,belief_post,1.35
+model,Funding,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.1
+model,Funding,NA,claude-opus-4-6,Anthropic,2,distrust_post,-2.45
+model,Funding,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Funding,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,3
+model,Funding,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.85
+model,Funding,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Funding,NA,claude-opus-4-6,Anthropic,2,policy_general,1.05
+model,Funding,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,0.8
+model,Funding,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.85
+model,Funding,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2
+model,Funding,NA,claude-opus-4-6,Anthropic,2,trust_post,1.75
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,belief_post,1.35
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.1
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,distrust_post,-2.3
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.135
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,0.85
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,1.25
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,policy_general,1.05
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.4500000000000002
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.75
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2.5
+model,High public trust,NA,claude-opus-4-6,Anthropic,2,trust_post,2.9
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,behavior_mean,0.8
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,belief_post,1
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,concern_mean,0.8500000000000001
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.35
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.1
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,0.65
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.65
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.0075
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,policy_general,0.65
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.15
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.525
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,1.65
+model,Interview Prof. Maraun,NA,claude-opus-4-6,Anthropic,2,trust_post,1.4500000000000002
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1.65
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,belief_post,2
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.8499999999999999
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.65
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,1.3
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,1
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.02
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,policy_general,1.65
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.75
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,1.2
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2.0999999999999996
+model,Interview Prof. Sebille,NA,claude-opus-4-6,Anthropic,2,trust_post,2
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,behavior_mean,1
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,belief_post,1.5
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,concern_mean,1.1
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.9
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,donation_ams,0.135
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,funding_perceptions,1.2
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,1.1
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,policy_general,0.85
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.5
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.65
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2.25
+model,Measurement & modeling (1),NA,claude-opus-4-6,Anthropic,2,trust_post,2.3
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,behavior_mean,0.6000000000000001
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,belief_post,0.8999999999999999
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,concern_mean,0.55
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,distrust_post,-1
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,donation_ams,0.07500000000000001
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,funding_perceptions,0.6
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.44999999999999996
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.004
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,policy_general,0.44999999999999996
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,policy_role_mean,0.75
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.4
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,1.35
+model,Measurement & modeling (2),NA,claude-opus-4-6,Anthropic,2,trust_post,1.2
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,belief_post,2
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.25
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.5
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,1.15
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.95
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,policy_general,1.25
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.05
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.85
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,1.65
+model,Model accuracy,NA,claude-opus-4-6,Anthropic,2,trust_post,1.8
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1.9500000000000002
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,belief_post,3
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,concern_mean,2.5
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,distrust_post,-3.6
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,2.25
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,1.5
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.015
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,policy_general,2.25
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.75
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,1.65
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,3.5
+model,Oil industry misinformation,NA,claude-opus-4-6,Anthropic,2,trust_post,4
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,behavior_mean,0.575
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,belief_post,1.025
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,concern_mean,0.7
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.2
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.1
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,0.675
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.75
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.0075
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,policy_general,0.675
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.475
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,1.4500000000000002
+model,Peer-review,NA,claude-opus-4-6,Anthropic,2,trust_post,1.575
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,behavior_mean,0.7749999999999999
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,belief_post,0.975
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,concern_mean,0.825
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.175
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.1
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,0.65
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.8500000000000001
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.0075
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,policy_general,0.75
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.15
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.575
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,1.4000000000000001
+model,Portrait Prof. Cherry,NA,claude-opus-4-6,Anthropic,2,trust_post,1.275
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,belief_post,1.35
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.1
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.65
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,0.85
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.8999999999999999
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,policy_general,1.05
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.8
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,0.8
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,2.15
+model,Scientist community helpers,NA,claude-opus-4-6,Anthropic,2,trust_post,1.95
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,behavior_mean,1.5
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,belief_post,1.5
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,concern_mean,1.9
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,distrust_post,-1.1
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,donation_ams,0.15
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,funding_perceptions,1.45
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,inst_trust_mean,0.8
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,newsletter_signup,0.01
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,policy_general,1.8
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,policy_role_mean,1.1
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,policy_specific_mean,1.4
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,trust_multidimensional,1
+model,Social justice,NA,claude-opus-4-6,Anthropic,2,trust_post,1.25

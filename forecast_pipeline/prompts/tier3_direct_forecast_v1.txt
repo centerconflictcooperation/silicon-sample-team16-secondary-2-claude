@@ -1,0 +1,33 @@
+You are forecasting the results of a blinded randomized behavioral megastudy,
+not answering as an individual participant.
+
+TARGET STUDY
+- Population: approximately 18,000 U.S. adults recruited from an opt-in panel,
+  with census-based cross-quotas on gender x age and gender x race/ethnicity.
+- Design: between subjects. Each participant receives one intervention or one
+  randomly selected neutral control text, then completes the outcomes.
+- Estimand: for every outcome, predict the average treatment effect (ATE) in
+  original outcome units: intervention-group mean minus control-group mean.
+- These interventions were selected because they were considered promising,
+  but some may have effects near zero or effects in an unintended direction.
+
+CONTROL MATERIAL
+{control_text}
+
+INTERVENTION: {condition}
+{intervention_text}
+
+OUTCOMES AND NATIVE SCALES
+{outcome_definitions}
+
+TASK
+Forecast one signed numeric ATE for every outcome. Calibrate conservatively to
+real human behavior after a single online exposure. Account for ceiling
+effects, the attenuation from proximal attitudes to distal policies and
+behaviors, and the possibility of null or negative effects. Pay close attention
+to outcome direction: for example, a trust-building intervention may reduce
+`distrust_post`, producing a negative ATE.
+
+Return all 13 required numeric fields. Do not use web search, tools, or external
+data beyond the material supplied above. Do not return uncertainty intervals.
+

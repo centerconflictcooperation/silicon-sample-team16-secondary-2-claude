@@ -1,0 +1,52 @@
+{
+  "upload_type": "software",
+  "title": "Silicon Sample Benchmark b",
+  "version": "1.0-t3",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Thériault, Rémi",
+      "affiliation": "Université du Québec à Rimouski; New York University",
+      "orcid": "0000-0003-4315-6788"
+    },
+    {
+      "name": "Van Bavel, Jay",
+      "affiliation": "New York University",
+      "orcid": "0000-0002-2520-0442"
+    }
+  ],
+  "description": "<p>A Tier-3 direct-effect forecast for the Silicon Sample Benchmark from Anthropic Claude Opus 4.6. Two fixed prompts elicited all 13 average treatment effects for each of 16 interventions. The two prompt-level forecasts were aggregated by their median. The entry contains 208 predictions in original outcome units and applies no post-hoc calibration or shrinkage.<\/p>",
+  "keywords": [
+    "Silicon Sample Benchmark",
+    "silicon sampling",
+    "large language models",
+    "computational social science",
+    "survey methodology",
+    "public opinion",
+    "climate communication",
+    "treatment effect prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/amendment_preregistration.html",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/centerconflictcooperation/silicon-sample-team16-secondary-2-claude",
+      "relation": "isCompiledBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Team team_16. Disclosure class A."
+}

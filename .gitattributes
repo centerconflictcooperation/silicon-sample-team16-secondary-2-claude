@@ -1,0 +1,4 @@
+# Preserve the exact bytes used for the emailed SHA-256 fingerprints on Windows.
+predictions/*.csv -text
+forecast_pipeline/outputs/**/*.csv -text
+forecast_pipeline/outputs/**/*.rds binary

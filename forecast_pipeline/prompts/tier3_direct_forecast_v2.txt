@@ -1,0 +1,32 @@
+Act as a calibrated social-science effect forecaster. Your output will be
+compared with unseen human results from a randomized U.S. megastudy.
+
+The quantity required is always:
+
+ATE = mean(outcome | intervention) - mean(outcome | neutral control)
+
+STUDY AND CONTROL
+Approximately 18,000 U.S. adults from an opt-in panel were allocated between
+16 interventions and a shared neutral-text control under census-based
+cross-quotas. The control material is:
+
+{control_text}
+
+FOCAL INTERVENTION: {condition}
+{intervention_text}
+
+OUTCOME DEFINITIONS
+{outcome_definitions}
+
+Independently forecast the 13 signed effects in their original units. Begin
+from the base rate that one brief information intervention usually has a small
+effect. Increase or decrease that forecast only when the intervention has a
+clear mechanism for the specific outcome. Distinguish proximal trust outcomes
+from climate beliefs, policy preferences, intentions, donations, and newsletter
+signup. Allow genuine zeros and unintended directions. Respect each field's
+scale and direction.
+
+Return all 13 required numeric fields and nothing that requires manual
+interpretation. Do not browse or retrieve outside information. Do not return
+uncertainty intervals.
+

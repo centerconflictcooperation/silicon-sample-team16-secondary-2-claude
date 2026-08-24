@@ -1,0 +1,14 @@
+outcome,native_min,native_max,definition,response_scale
+behavior_mean,0,100,"Mean intended likelihood of eating less meat, using lower-carbon transport, installing solar, flying less, discussing climate change, and donating to an environmental NGO.",0 = not likely at all; 100 = extremely likely; higher means stronger pro-climate behavioral intentions.
+belief_post,0,100,Perceived accuracy of the statement: Human activities are causing climate change.,0 = not at all accurate; 100 = extremely accurate.
+concern_mean,0,100,"Mean climate-change concern, perceived seriousness, and importance relative to other U.S. issues.",0 = low concern/seriousness/importance; 100 = high concern/seriousness/importance.
+distrust_post,0,100,How much the respondent distrusts climate scientists.,0 = not at all; 100 = very strongly; higher means more distrust.
+donation_ams,0,10,Dollars donated from a $10 bonus to the American Meteorological Society.,$0 to $10.
+funding_perceptions,0,100,Reverse-coded perception of federal spending on climate-change research.,0 = perceives far too much funding; 50 = about right; 100 = perceives far too little funding. Higher means stronger perceived need for more funding.
+inst_trust_mean,0,100,"Mean trust in the EPA, NASA, NOAA, universities and colleges, and the federal government.",0 = not at all; 100 = very strongly.
+newsletter_signup,0,1,Proportion subscribing to the Talking Climate newsletter.,0 = no signup; 1 = signup. The ATE is a probability difference.
+policy_general,0,100,Support for the U.S. government doing more to reduce global warming.,0 = strongly oppose; 100 = strongly support.
+policy_role_mean,0,100,"Mean agreement that climate scientists should communicate with policymakers, work with them, advocate for policies, and be involved in policymaking.",0 = strongly disagree; 100 = strongly agree.
+policy_specific_mean,0,100,"Mean support for seven specific mitigation policies covering fossil-fuel taxes, public transport, sustainable energy, land protection, carbon-intensive food taxes, green jobs, and clean waterways.",0 = strongly oppose; 100 = strongly support.
+trust_multidimensional,0,100,"Primary outcome: mean of climate-scientist competence, integrity, benevolence, and openness subscales.",0 = very low multidimensional trust; 100 = very high multidimensional trust.
+trust_post,0,100,How much the respondent trusts climate scientists.,0 = not at all; 100 = very strongly.
