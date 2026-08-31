@@ -97,8 +97,10 @@ build_zenodo <- function(root = ".") {
 
   z <- list(
     upload_type  = "software",
-    title        = sprintf("Silicon Sample Benchmark — Tier %s (%s) submission (team %s)",
-                           tier, desc, team),
+    title        = sprintf(
+      "Silicon Sample Benchmark \u2014 Tier %s Secondary Claude Submission (Team 16)",
+      tier
+    ),
     version      = sprintf("1.0-t%s", tier),
     language     = "eng",
     access_right = "open",
